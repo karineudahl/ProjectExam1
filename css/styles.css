@@ -1,0 +1,142 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 1.6em;
+  font-family: "Bungee Inline", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+h3 {
+  font-size: 0.9em;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  margin: 30px 20px;
+}
+
+.logo-img {
+  width: auto;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-ul li {
+  display: inline;
+}
+
+.nav-ul li a {
+  font-size: 1.1em;
+  padding: 10px;
+}
+
+.nav-ul li a:hover,
+.footerNavigation ul li a:hover {
+  background-color: #d79e25;
+  border-radius: 5px;
+}
+
+.hamburger {
+  display: none;
+}
+
+.iconContainer {
+  text-align: center;
+}
+
+.fa-facebook-f,
+.fa-instagram,
+.fa-envelope {
+  font-size: 22px;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  cursor: pointer;
+}
+
+.fa-facebook-f:hover,
+.fa-instagram:hover,
+.fa-envelope:hover {
+  transform: scale(1.4);
+}
+
+.whereAmIContainer {
+  margin-bottom: 50px;
+}
+
+.whereAmIContainer li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.whereAmIContainer li a {
+  font-size: 0.8em;
+}
+
+.whereAmINow {
+  color: grey;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 50px 20px 80px 20px;
+  margin-top: 170px;
+}
+
+.footerContainer {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.footerContainer h4 {
+  font-size: 0.9em;
+}
+
+.footer-img {
+  width: 30px;
+  margin: 20px 20px 20px 30px;
+}
+
+.footerNavigation ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.footerNavigation ul li {
+  padding-bottom: 5px;
+}
+
+.footerNavigation ul li a {
+  font-size: 0.8em;
+  padding: 7px;
+  text-decoration: underline;
+}

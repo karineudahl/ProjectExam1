@@ -1,0 +1,29 @@
+.recipes-spesific-h1,
+.recipes-spesific-text {
+  margin: 30px;
+}
+
+.btn {
+  min-height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: white;
+  border: none;
+  outline: none;
+}
+
+.recipes-spesific-text h2 {
+  margin: 40px 0px;
+  font-size: 1.4em;
+}
+
+.recipes-spesific-text li {
+  font-size: 0.8em;
+  margin-bottom: 15px;
+}

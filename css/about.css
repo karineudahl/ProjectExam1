@@ -1,0 +1,13 @@
+.about-h1,
+.about-container {
+  margin: 40px;
+}
+
+.about-content {
+  margin-top: 40px;
+}
+
+.about-content ul li {
+  font-size: 0.8em;
+  padding-bottom: 10px;
+}

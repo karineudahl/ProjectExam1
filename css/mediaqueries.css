@@ -1,0 +1,251 @@
+@media (max-width: 649px) {
+  .logo-img {
+    height: 75px;
+  }
+
+  .navContainer {
+    flex-wrap: wrap;
+  }
+
+  .nav-ul {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    display: none;
+    width: 100%;
+  }
+
+  .nav-ul.show {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-ul li a {
+    display: inline-block;
+    font-size: 0.8em;
+    text-decoration: underline;
+  }
+
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76px;
+    height: 80px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    border: none;
+    background-color: white;
+  }
+
+  .hamburger-stripes {
+    width: 40px;
+    height: 5px;
+    background-color: #d79e25;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .hamburger-stripes::before,
+  .hamburger-stripes::after {
+    content: "";
+    position: absolute;
+    right: 17px;
+    width: 40px;
+    height: 5px;
+    border: 1px solid black;
+    background-color: #d79e25;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .hamburger-stripes::before {
+    transform: translateY(-16px);
+  }
+
+  .hamburger-stripes::after {
+    transform: translateY(16px);
+  }
+
+  .hamburger.open .hamburger-stripes {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+  }
+
+  .hamburger.open .hamburger-stripes::before {
+    transform: rotate(45deg) translate(35px, -35px);
+    left: 0px;
+  }
+
+  .hamburger.open .hamburger-stripes::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+    left: 0px;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 899px) {
+  header {
+    margin: 30px;
+  }
+
+  p,
+  .recipes-spesific-text li {
+    font-size: 1em;
+  }
+
+  .navContainer {
+    align-items: center;
+  }
+
+  .about-h1,
+  .about-container {
+    margin: 50px 100px 0px 100px;
+  }
+
+  .homepage-container {
+    display: flex;
+    margin: 15px;
+  }
+
+  .homepage-container a {
+    margin: 10px 30px 15px 30px;
+  }
+
+  .carousel,
+  .carouselbox {
+    height: 350px;
+  }
+
+  .carousel .switchLeft,
+  .carousel .switchRight {
+    line-height: 350px;
+    width: 35px;
+  }
+
+  .carouselbox img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .contact-h1,
+  .contact-form,
+  .message-success {
+    margin: 50px auto;
+    max-width: 450px;
+  }
+
+  .recipes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    margin: 40px 40px 0px 40px;
+  }
+
+  .recipes-h1,
+  .search-container {
+    margin-left: 70px;
+  }
+
+  .recipes-spesific-text,
+  .recipes-spesific-h1 {
+    margin: 100px;
+  }
+
+  .more-button {
+    right: 70px;
+  }
+}
+
+@media (min-width: 900px) {
+  header {
+    margin: 30px;
+  }
+
+  p,
+  .recipes-spesific-text li {
+    font-size: 1em;
+  }
+
+  .navContainer {
+    align-items: center;
+  }
+
+  .about-h1,
+  .about-container,
+  .homepage-container {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .img-container {
+    margin: 55px 30px 20px 0px;
+  }
+
+  .about-content ul {
+    padding-top: 0px;
+  }
+
+  .homepage-container {
+    display: flex;
+  }
+
+  .homepage-container a {
+    margin: 10px 20px 20px 20px;
+  }
+
+  .carousel,
+  .carouselbox {
+    height: 350px;
+  }
+
+  .carousel .switchLeft,
+  .carousel .switchRight {
+    line-height: 350px;
+    width: 35px;
+  }
+
+  .carouselbox img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .contact-h1,
+  .contact-form,
+  .specific-content,
+  .message-success {
+    margin: 50px auto;
+    max-width: 450px;
+  }
+
+  .search-field {
+    width: 350px;
+  }
+
+  .search-container {
+    margin-left: 70px;
+  }
+
+  .recipes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    margin: 40px 40px 0px 40px;
+  }
+
+  .recipes-h1 {
+    margin-left: 70px;
+  }
+
+  .recipes-spesific-text,
+  .recipes-spesific-h1 {
+    margin: 50px auto;
+    max-width: 650px;
+  }
+
+  .more-button {
+    right: 70px;
+  }
+}

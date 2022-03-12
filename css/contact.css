@@ -1,0 +1,109 @@
+.contact-h1,
+.contact-form {
+  margin: 50px;
+  max-width: 450px;
+  position: relative;
+}
+
+.contact-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.contact-container__label-message,
+.contact-container__label {
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  transition: 1s all;
+  width: 100%;
+}
+
+.contact-container__input {
+  height: 47px;
+  background-color: rgb(238, 238, 238);
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px 0px 0px 5px;
+  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-container__textarea {
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  border: none;
+  border-radius: 5px;
+  padding: 20px 0px 0px 5px;
+  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-container__input:focus + .contact-container__label {
+  font-size: 13px;
+}
+
+.contact-container__label::after {
+  content: "";
+  position: absolute;
+  top: 53px;
+  left: -3px;
+  width: 0%;
+  background: #d79e25;
+  height: 2px;
+  transition: 2s all;
+}
+
+.contact-container__label-message::after {
+  content: "";
+  position: absolute;
+  top: 262px;
+  left: -3px;
+  width: 0%;
+  background: #d79e25;
+  height: 2px;
+  transition: 2s all;
+}
+
+.contact-container__textarea,
+.contact-container__input:focus {
+  outline: none;
+}
+
+.contact-container__input:focus + .contact-container__label::after {
+  width: 100%;
+}
+
+.contact-container__textarea:focus + .contact-container__label-message::after {
+  width: 100%;
+}
+
+.cta-contact {
+  background-color: #008a00;
+  padding: 7px 25px;
+  border-radius: 5px;
+  color: white;
+  border: solid 1px #008a00;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0px;
+  box-shadow: 4px 4px 4px lightgrey;
+}
+
+.cta-contact:hover {
+  background-color: white;
+  color: #008a00;
+  font-weight: bold;
+}
+
+.form-error {
+  color: red;
+  display: none;
+}
+
+.message-success {
+  background-color: rgb(91, 163, 91);
+  margin: 50px;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+}

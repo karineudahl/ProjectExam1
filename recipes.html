@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Norwegian Taco Blog | Recipes</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="see all the recipes on the norwegian tacoblog, search for recipes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/recipes.css" rel="stylesheet">
+    <link href="css/mediaqueries.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3ca04481c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navContainer">
+            <div class="logoContainer">
+                <a href="index.html"><img src="images/logo.png" class="logo-img" alt="dark yellow sombrero med teksten The Norwegian Taco Blog"></a>
+            </div>        
+            <div class="hamburger" id="hamburger">
+                <p class="hamburger-stripes"></p>
+            </div>
+            <ul class="nav-ul" id="nav-ul">
+                <li><a href="recipes.html" class="whereAmINow">Recipes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="iconContainer">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="contact.html"><i class="far fa-envelope"></i></a>
+        </div>
+    </header>   
+    <main>
+        <nav class="whereAmIContainer">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html" class="whereAmINow"><i class="fas fa-chevron-right"></i> Recipes</a></li>
+            </ul>
+        </nav>
+        <h1 class="recipes-h1">Recipes</h1>
+        <div class="search-container">
+            <p>Search for recipes</p> 
+            <input type="text" name="searchBar" id="searchBar" class="search-field" placeholder="Search for recipes">
+        </div>
+        <div class="recipes-container">
+            <div class="loader"></div>
+        </div>
+        <div class="button-container">
+            <button class="more-button">More recipes</button>
+        </div>
+    </main>
+    <footer>
+        <div class="footerContainer">
+            <div>
+                <img src="images/favicon.png" class="footer-img" alt="dark yellow sobrero hat, same as in the logo">
+                <h4>Short cuts</h4>
+                <nav class="footerNavigation">
+                    <ul>
+                        <li><a href="recipes.html" class="whereAmINow">Recipe</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footerContainer">
+            <div>
+                <img src="images/favicon.png" class="footer-img" alt="dark yellow sobrero hat, same as in the logo">
+                <h4>Sosial media</h4>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/hamburger.js"></script>
+    <script src="js/recipes.js"></script>
+</body>
+</html>

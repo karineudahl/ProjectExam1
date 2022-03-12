@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Norwegian Taco Blog | Recipes | </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="recipes with explanation of how to make the dish">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/recipes-spesific.css" rel="stylesheet">
+    <link href="css/mediaqueries.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3ca04481c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navContainer">
+            <div class="logoContainer">
+                <a href="index.html"><img src="images/logo.png" class="logo-img" alt="dark yellow sombrero med teksten The Norwegian Taco Blog"></a>
+            </div>        
+            <div class="hamburger" id="hamburger">
+                <p class="hamburger-stripes"></p>
+            </div>
+            <ul class="nav-ul" id="nav-ul">
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="iconContainer">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="contact.html"><i class="far fa-envelope"></i></a>
+        </div>
+    </header>
+    <main>
+        <div class="recipes-menu"></div>
+        <div class="recipes-spesific-h1" id="recipes-spesific-h1"></div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"></button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body"></div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="recipes-spesific-text" id="recipes-spesific-text"></div>
+    </main>
+    <footer>
+        <div class="footerContainer">
+            <div>
+                <img src="images/favicon.png" class="footer-img" alt="dark yellow sobrero hat, same as in the logo">
+                <h4>Short cuts</h4>
+                <nav class="footerNavigation">
+                    <ul>
+                        <li><a href="recipes.html">Recipe</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footerContainer">
+            <div>
+                <img src="images/favicon.png" class="footer-img" alt="dark yellow sobrero hat, same as in the logo">
+                <h4>Sosial media</h4>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/hamburger.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="js/recipes-spesific.js"></script>
+</body>
+</html>

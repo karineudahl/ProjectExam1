@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Norwegian Taco Blog | Contact</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="get in contact with the norwegian tacoblog by filling out this form">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="css/mediaqueries.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3ca04481c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navContainer">
+            <div class="logoContainer">
+                <a href="index.html"><img src="images/logo.png" class="logo-img" alt="dark yellow sombrero med teksten The Norwegian Taco Blog"></a>
+            </div>        
+            <div class="hamburger" id="hamburger">
+                <p class="hamburger-stripes"></p>
+            </div>
+            <ul class="nav-ul" id="nav-ul">
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="whereAmINow">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="iconContainer">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="contact.html"><i class="far fa-envelope"></i></a>
+        </div>
+    </header>
+    <main>
+        <nav class="whereAmIContainer">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html" class="whereAmINow"><i class="fas fa-chevron-right"></i> Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="contact-h1">Contact form</h1>
+        <div id="messageSucess"></div>
+        <form class="contact-form" id="form" action="submit.php" method="POST">
+            <div class="contact-container">
+                <input type="text" class="contact-container__input" id="name">
+                <label for="name" class="contact-container__label">Name *</label>
+                <div class="form-error" id="nameError">Pleace enter your name, more than 5 characters</div>
+            </div>
+            <div class="contact-container">   
+                <input type="text" class="contact-container__input" id="email">
+                <label for="email" class="contact-container__label">Email adress *</label>
+                <div class="form-error" id="emailError">Pleace enter a valid email</div>
+            </div>
+            <div class="contact-container">   
+                <input type="text" class="contact-container__input" id="subject">
+                <label for="subject" class="contact-container__label">Subject *</label>
+                <div class="form-error" id="subjectError">Pleace enter a valid subject, more than 15 characters</div>
+            </div>
+            <div class="contact-container">
+                <textarea class="contact-container__textarea" id="message" rows="15"></textarea>
+                <label for="message" class="contact-container__label-message">Message *</label>
+                <div class="form-error" id="messageError">Pleace enter a valid message, more than 25 characters</div>
+            </div>
+            <button class="cta-contact">Send message</button>
+        </form>
+    </main>
+    <footer>
+        <div class="footerContainer">
+            <div>
+                <img src="images/favicon.png" class="footer-img" alt="dark yellow sobrero hat, same as in the logo">
+                <h4>Short cuts</h4>
+                <nav class="footerNavigation">
+                    <ul>
+                        <li><a href="recipes.html">Recipe</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html" class="whereAmINow">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footerContainer">
+            <div>
+                <img src="images/favicon.png" class="footer-img" alt="dark yellow sobrero hat, same as in the logo">
+                <h4>Sosial media</h4>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/contact.js"></script>
+    <script src="js/hamburger.js"></script>
+</body>
+</html>

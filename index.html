@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Norwegian Taco Blog | Home</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="get the best taco recipes, show the lastest recipes, all recipes and get inspiration to make good mexian food">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/mediaqueries.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3ca04481c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navContainer">
+            <div class="logoContainer">
+                <a href="index.html"><img src="images/logo.png" class="logo-img" alt="dark yellow sombrero med teksten The Norwegian Taco Blog"></a>
+            </div>        
+            <div class="hamburger" id="hamburger">
+                <p class="hamburger-stripes"></p>
+            </div>
+            <ul class="nav-ul" id="nav-ul">
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="iconContainer">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="contact.html"><i class="far fa-envelope"></i></a>
+        </div>
+    </header>
+    <main>
+        <div class="background-img"></div>
+        <div class="homepage-text">
+            <h1>Welcome to The Norwegian Taco Blog.</h1>
+            <p>Taco recipes for every tast.</p>
+        </div>
+        <h2 class="home-h2">Latest recipes</h2>  
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carouselbox"></div>
+                <a class="switchLeft"><i class="fas fa-chevron-left"></i></a>
+                <a class="switchRight"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div> 
+        <div class="homepage-container">
+            <a href="recipes.html" class="homepage-link">
+                <div>
+                    <img src="images/home-burrito.jpg" alt="three burritos with chicken, vegetables and salat, wrapped in black tortilla">
+                </div>
+                <div class="homepage-container-content">
+                    <h3>Recipes</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="cta-homepage">Read more</div>
+                </div>
+            </a>
+            <a href="about.html" class="homepage-link">
+                <div>
+                    <img src="images/home-about.jpg" alt="the girl who run the taco blog in a street with people and foodtrucks, holdning a sombrero">
+                </div>
+                <div class="homepage-container-content">
+                    <h3>About</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="cta-homepage">Read more</div>
+                </div>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div class="footerContainer">
+            <div>
+                <img src="images/favicon.png" class="footer-img" alt="dark yellow sobrero hat, same as in the logo">
+                <h4>Short cuts</h4>
+                <nav class="footerNavigation">
+                    <ul>
+                        <li><a href="recipes.html">Recipe</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footerContainer">
+            <div>
+                <img src="images/favicon.png" class="footer-img" alt="dark yellow sobrero hat, same as in the logo">
+                <h4>Sosial media</h4>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/hamburger.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
