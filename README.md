@@ -1,5 +1,3 @@
-Character: A
-
 ## Project Exam 1
 
 ## Goal
