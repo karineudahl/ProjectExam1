@@ -1,11 +1,12 @@
 ## The Norwegian TacoBlog (Project Exam 1 at Noroff) 
 
+Goal was to put into practice the skills learned over the first year of studies at Noroff. 
+
 <img width="1180" alt="Screenshot 2022-09-29 at 09 34 42" src="https://user-images.githubusercontent.com/74554925/192969051-e98ca19a-497b-47d9-8047-b841ac7775ac.png">
 
 ## Description (assignment)
 
-- To put into practice the skills learned over your first year of studies.
-- You have been tasked with creating a blog site. You can choose the design and topics covered on the blog, but it should have at least the following pages: Home page, About page,	List of blog posts,	Blog post specific pages,	Contact page.
+- You have been tasked with creating a blog site. You can choose the design and topics covered on the blog.
 - Create a prototype of the website in Adobe XD. 
 - Home Page: The home page should have a ‘Latest Posts’ section which uses a carousel (slider) for users to click to view more posts. For example, by default the user can see four posts, then they can click an arrow on the right to view the next four posts, and click it again to view the next four posts. The user can also click back to view results they had previously seen.
 - Blog Page: The blog posts page should show the first 10 blogs, and the user should click to view more results which then show underneath the first 10 blogs. You will need to add at least 12 blogs for your website. 
@@ -15,10 +16,11 @@
 - Install Hotjar on your webpage, and ask users to test. 
 
 ## Built With
--	API from WordPress installation
--	HTML
-- CSS
-- JavaScript
+- 💻 API from WordPress installation
+- 📄 HTML
+- 👁 CSS
+- 👩🏽‍💻 JavaScript
+- 🏞 Adobe XD for design
 
 ## Getting started 
 
