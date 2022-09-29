@@ -2,7 +2,7 @@
 
 <img width="1180" alt="Screenshot 2022-09-29 at 09 34 42" src="https://user-images.githubusercontent.com/74554925/192969051-e98ca19a-497b-47d9-8047-b841ac7775ac.png">
 
-## Description 
+## Description (assignment)
 
 - To put into practice the skills learned over your first year of studies.
 - You have been tasked with creating a blog site. You can choose the design and topics covered on the blog, but it should have at least the following pages: Home page, About page,	List of blog posts,	Blog post specific pages,	Contact page.
@@ -15,9 +15,15 @@
 - Install Hotjar on your webpage, and ask users to test. 
 
 ## Built With
--	API from your WordPress installation
--	HTML, CSS and JavaScript
+-	API from WordPress installation
+-	HTML
+- CSS
+- JavaScript
 
 ## Getting started 
-1. Clone the repo 
-2. Open project in Live Server. 
+
+### Installing
+- Clone the repo: gh repo clone karineudahl/ProjectExam1
+
+### Running 
+- Right click on HTML file, and click "Open with Live Server". 
