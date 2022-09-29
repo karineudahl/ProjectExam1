@@ -23,7 +23,9 @@
 ## Getting started 
 
 ### Installing
-- Clone the repo: gh repo clone karineudahl/ProjectExam1
-
+- Clone the repo
+```
+gh repo clone karineudahl/ProjectExam1
+```
 ### Running 
 - Right click on HTML file, and click "Open with Live Server". 
