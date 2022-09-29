@@ -30,4 +30,4 @@ Goal was to put into practice the skills learned over the first year of studies 
 gh repo clone karineudahl/ProjectExam1
 ```
 ### Running 
-- Right click on HTML file, and click "Open with Live Server". 
+- Right click on one HTML file, and click "Open with Live Server". 
